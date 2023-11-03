@@ -1,14 +1,13 @@
 import telebot
 import requests
 import json
-from telebot import types
-from decouple import config
 import logging
+# from telebot import types
+# from decouple import config
 
-
-# TOKEN = config('TOKEN')
+TOKEN = 'TOKEN'
 bot = telebot.TeleBot(TOKEN)
-# API = config('API')
+API = 'API'
 
 
 # Настройка логирования
